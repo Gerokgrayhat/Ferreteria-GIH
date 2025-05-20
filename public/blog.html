@@ -7,7 +7,8 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin: 40px;
+      margin: 0;
+      padding-top: 60px; /* Espacio para el navbar fijo */
     }
 
     h1 {
@@ -19,6 +20,7 @@
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
+      margin: 40px;
     }
 
     .articulo {
@@ -38,6 +40,13 @@
       color: #aaa;
       font-size: 14px;
       margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .imagen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .titulo {
@@ -63,15 +72,60 @@
     .boton:hover {
       background-color: #f0f0f0;
     }
+
+    /* Estilos del navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 98%;
+      background-color: #094080f3;
+      padding: 10px 20px;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav div {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
   </style>
 </head>
 <body>
 
-  <h1>BLOG </h1>
+  <nav>
+    <ul>
+      <div>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+      </div>
+      <div>
+        <li><a href="#carrito">Carrito</a></li>
+        <li><a href="#login">Login</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <h1>BLOG</h1>
 
   <div class="contenedor-articulos">
     <div class="articulo">
-      <div class="imagen"><img src="img/taladro.jpg" alt="taladro de pilas" width="207" height="150"></div>
+      <div class="imagen"><img src="img/taladro.jpg" alt="taladro de pilas"></div>
       <div class="titulo">TÍTULO DEL ARTÍCULO</div>
       <div class="descripcion">
         Línea de descripción<br>
@@ -82,7 +136,7 @@
     </div>
 
     <div class="articulo">
-      <div class="imagen"><img src="img/sierra circular electrica.jpg" alt="Sierra electrica circular" width="207" height="150"></div>
+      <div class="imagen"><img src="img/sierra circular electrica.jpg" alt="Sierra electrica circular"></div>
       <div class="titulo">Sierra eléctrica circular</div>
       <div class="descripcion">
         Línea de descripción<br>
@@ -93,7 +147,7 @@
     </div>
 
     <div class="articulo">
-      <div class="imagen"><img src="img/martillo.jpg" alt="martillo de 250gr" width="207" height="150"></div>
+      <div class="imagen"><img src="img/martillo.jpg" alt="martillo de 250gr"></div>
       <div class="titulo">Martillo de 250gr</div>
       <div class="descripcion">
         Línea de descripción<br>
