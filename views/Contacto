@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Ferretería El Tornillo Feliz</title>
+</head>
+<body>
+
+  <h1>CONTACTO</h1>
+
+  <!-- Sección de opciones (checkboxes) -->
+  <form>
+    <label><input type="checkbox" name="consulta" value="producto"> Consulta sobre producto</label><br>
+    <label><input type="checkbox" name="pedido" value="pedido"> Estado de pedido</label><br>
+    <label><input type="checkbox" name="otro" value="otro"> Otra consulta</label><br>
+
+    <!-- Imagen representativa -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmq-8bB6LONzrMn5nTFdaT0EARwio0Q7EmVw&s" alt="Imagen de Ferretería">
+
+    <!-- Datos de contacto -->
+    <p>Dirección: Calle Principal #123, Ciudad Ferretera</p>
+    <p>Teléfono: +1 809-653-6782</p>
+    <p>Correo: contacto@eltornillofeliz.com</p>
+    <p>Sitio web: www.eltornillofeliz.com</p>
+
+    <!-- Formulario de contacto -->
+    <input type="text" name="nombre" placeholder="Nombre"><br><br>
+    <input type="email" name="correo" placeholder="Correo electrónico"><br><br>
+    <textarea name="mensaje" placeholder="Mensaje" rows="5" cols="30"></textarea><br><br>
+
+    <button type="submit">ENVIAR</button>
+  </form>
+
+  <!-- Horarios -->
+  <h2>HORARIOS DE ATENCIÓN</h2>
+  <p>Lunes a Viernes: 8:00 a.m. - 6:00 p.m.</p>
+  <p>Sábado: 9:00 a.m. - 2:00 p.m.</p>
+  <p>Domingo: Cerrado</p>
+
+  <!-- Mapa o ubicación referencial -->
+  <img src="C:\Users\corni\Desktop\Opera Instantánea_2025-05-19_195924_www.google.com.png" alt="Ubicación Ferretería">
+
+</body>
+</html>
