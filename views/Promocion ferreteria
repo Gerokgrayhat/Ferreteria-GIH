@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Promociones Ferretería</title>
+</head>
+<body>
+
+  <h1>PROMOCIONES</h1>
+  <p>Descuentos especiales en herramientas y materiales de ferretería</p>
+  <button>VER OFERTAS</button>
+
+  <!-- Productos en promoción -->
+  <div>
+    <h2>Taladro Eléctrico 500W</h2>
+    <img src="https://m.media-amazon.com/images/I/71eYq4Fwi1L.jpg" alt="Taladro Eléctrico" width="250">
+    <p><strong>$3,450</strong> <del>$4,450</del></p>
+    <button>COMPRAR</button>
+  </div>
+
+  <div>
+    <h2>Juego de Destornilladores</h2>
+    <img src="https://yoclaudiomercantil.com.do/wp-content/uploads/2022/08/juego-de-destornillador-estria-y-plano-10-piezas-stanley-yoclaudiomercantil.jpg"  alt="Juego de Destornilladores" width="250">
+    <p><strong>$1,000</strong> <del>$2,000</del></p>
+    <button>COMPRAR</button>
+  </div>
+
+  <div>
+    <h2>Sierra Circular Industrial</h2>
+    <img src="https://ferremix.com.do/cdn/shop/files/SICI-7-1-4N4.jpg?v=1745250246" alt="Sierra Circular" width="250">
+    <p><strong>$50,000</strong> <del>$60,000</del></p>
+    <button>COMPRAR</button>
+  </div>
+
+  <div>
+    <h2>Kit de Herramientas 120 Piezas</h2>
+    <img src="https://sosintegral.com/wp-content/uploads/2024/04/91-931_ab5401289ffd9f7a46be2334ceb5f05f.jpg" alt="Kit de Herramientas" width="250">
+    <p><strong>$3,000</strong> <del>$4,500</del></p>
+    <button>COMPRAR</button>
+  </div>
+
+  <!-- Sección blog -->
+  <h2>BLOG / CONSEJOS / TUTORIALES</h2>
+
+  <div>
+    <h3>Cómo elegir la herramienta adecuada para cada trabajo</h3>
+    <img src="https://static.vecteezy.com/system/resources/previews/046/900/297/non_2x/illustration-cute-cartoon-hammer-and-nail-design-free-vector.jpg" alt="Artículo sobre herramientas" width="250">
+    <p>Consejos útiles para seleccionar taladros, sierras y más.</p>
+    <button>LEER MÁS</button>
+  </div>
+
+  <div>
+    <h3>Mantenimiento básico de tus herramientas eléctricas</h3>
+    <img src="https://www.nortonabrasives.com/sites/mac3-acs-norton/files/styles/original_optimised/public/2024-09/Consejos%20para%20el%20mantenimiento%20de%20herramientas%20el%C3%A9ctricas.jpg?itok=zil3LNfi" alt="Mantenimiento de herramientas" width="250">
+    <p>Guía práctica para prolongar la vida útil de tus equipos.</p>
+    <button>LEER MÁS</button>
+  </div>
+
+  <div>
+    <h3>Video tutorial: Instala una repisa en casa como un profesional</h3>
+    <img src="https://i.ytimg.com/vi/Rl2NW-0OI3k/maxresdefault.jpg" alt="Video tutorial de repisa" width="250">
+    <p>Aprende paso a paso con nuestro video de instalación.</p>
+    <button>LEER MÁS</button>
+  </div>
+
+</body>
+</html>
