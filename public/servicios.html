@@ -1,85 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito de compras</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestros Servicios</title>
 </head>
-<body style="font-family: Arial; max-width: 500px; margin: 0 auto; padding-top: 60px;">
-    
-    <!-- Barra de navegación fija -->
-    <nav style="position: fixed; top: 0; width: 100%; background-color: #094080; padding: 10px 0; z-index: 1000;">
-        <ul style="list-style: none; display: flex; justify-content: space-between; margin: 0; padding: 0 10px;">
-            <div style="display: flex; gap: 15px;">
-                <li><a href="#inicio" style="text-decoration: none; color: white;">Inicio</a></li>
-                <li><a href="catalogo.html" style="text-decoration: none; color: white;">Catálogo</a></li>
-                <li><a href="servicios.html" style="text-decoration: none; color: white;">Servicios</a></li>
-                <li><a href="blog.html" style="text-decoration: none; color: white;">Blog</a></li>
-            </div>
-            <div style="display: flex; gap: 15px;">
-                <li><a href="#carrito" style="text-decoration: none; color: white;">Carrito</a></li>
-                <li><a href="#login" style="text-decoration: none; color: white;">Login</a></li>
-            </div>
-        </ul>
-    </nav>
+<body style="margin: 0; font-family: sans-serif;">
+  
 
-    <!-- Contenido del carrito -->
-    <h1 style="text-align: center; font-size: 1.5em;">Carrito</h1>
 
-    <hr style="border: 1px solid #eee; margin: 10px 0;">
 
-    <h2 style="font-size: 1.2em; margin: 5px 0;">Productos</h2>
 
-    <table border="1" cellpadding="5" cellspacing="0" width="100%" style="font-size: 0.9em;">
-        <tr bgcolor="#f5f5f5">
-            <th width="50%">Producto</th>
-            <th width="25%">Precio</th>
-            <th width="25%">Cantidad</th>
-        </tr>
-        <tr>
-            <td>Producto 1</td>
-            <td align="right">$0.00</td>
-            <td align="center">
-                <button style="padding: 2px 5px; margin-right: 3px;">-</button>1<button style="padding: 2px 5px; margin-left: 3px;">+</button>
-            </td>
-        </tr>
-        <tr>
-            <td>Producto 2</td>
-            <td align="right">$0.00</td>
-            <td align="center">
-                <button style="padding: 2px 5px; margin-right: 3px;">-</button>1<button style="padding: 2px 5px; margin-left: 3px;">+</button>
-            </td>
-        </tr>
-        <tr>
-            <td>Producto 3</td>
-            <td align="right">$0.00</td>
-            <td align="center">
-                <button style="padding: 2px 5px; margin-right: 3px;">-</button>1<button style="padding: 2px 5px; margin-left: 3px;">+</button>
-            </td>
-        </tr>
-        <tr>
-            <td>Producto 4</td>
-            <td align="right">$0.00</td>
-            <td align="center">
-                <button style="padding: 2px 5px; margin-right: 3px;">-</button>1<button style="padding: 2px 5px; margin-left: 3px;">+</button>
-            </td>
-        </tr>
+ 
+  <nav style="position: fixed; top: 0; width: 98%; background-color: #094080f3; padding: 10px 20px; z-index: 1000;">
+    <ul style="list-style: none; display: flex; justify-content: space-between; margin: 0; padding: 0;">
+      <div style="display: flex; gap: 20px;">
+        <li><a href="#inicio" style="text-decoration: none; color: white;">Inicio</a></li>
+        <li><a href="catalogo.html" style="text-decoration: none; color: white;">Catálogo</a></li>
+        <li><a href="servicios.html" style="text-decoration: none; color: white;">Servicios</a></li>
+        <li><a href="blog.html" style="text-decoration: none; color: white;">Blog</a></li>
+        <li><a href="#contacto" style="text-decoration: none; color: white;">Contacto</a></li>
+        <li><a href="#promociones" style="text-decoration: none; color: white;">Promociones</a></li>
+      </div>
+      <div style="display: flex; gap: 20px;">
+        <li><a href="carrito.html" style="text-decoration: none; color: white;">Carrito</a></li>
+        <li><a href="#login" style="text-decoration: none; color: white;">Login</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  
+  <div style="padding: 100px 20px 20px 20px;">
+    <h1 style="text-align: center;">Nuestros Servicios</h1>
+
+   
+    <table width="100%" cellspacing="30">
+     
+      <tr>
+        <td align="center">
+          <img src="img/reparacion o instalacion.png" alt="Reparación o instalación" width="300" height="200"><br>
+        </td>
+        <td>
+          <h2>Reparación o instalación de productos</h2>
+          <p>Ofrecemos servicios expertos de reparación e instalación para una amplia gama de productos.
+             ¡Confía en nosotros para que tus proyectos queden perfectos y sin complicaciones!</p>
+          <button>Solicitar servicio</button>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td>
+          <h2>Entregas a domicilio</h2>
+          <p>¡Hacemos tu vida más fácil! Con nuestro servicio de entrega a domicilio, tus compras de ferretería llegan directamente a tu puerta.
+             ¡Compra lo que necesitas y recíbelo con toda la comodidad!</p>
+          <button>Solicitar entrega</button>
+        </td>
+        <td align="center">
+          <img src="img/Entregas a domicilio.png" alt="Entregas a domicilio" width="300" height="200">
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td align="center">
+          <img src="img/Asesoria Tecnica.png" alt="Asesoría técnica" width="300" height="200"><br>
+        </td>
+        <td>
+          <h2>Asesoría técnica</h2>
+          <p>¿Tienes dudas con tu proyecto o necesitas el producto ideal? ¡No te compliques! En nuestra ferretería, te ofrecemos asesoría técnica especializada.
+             Nuestro equipo de expertos está listo para guiarte, ayudarte a elegir los materiales correctos y encontrar las mejores soluciones para que tus trabajos queden perfectos. 
+            ¡Pregúntanos y construye con confianza!</p>
+          <button>Hablar con un experto</button>
+        </td>
+      </tr>
+
+      
+      <tr>
+        <td>
+          <h2>Talleres o cursos</h2>
+          <p>¡Convierte tus ideas en realidad! Participa en nuestros talleres y cursos prácticos de ferretería. 
+            Aprende nuevas habilidades, domina herramientas y gana la confianza para llevar a cabo tus propios proyectos, desde reparaciones sencillas hasta creaciones más complejas. 
+            ¡Pregúntanos por la programación y empieza a construir!</p>
+          <button>Inscribirse</button>
+        </td>
+        <td align="center">
+          <img src="img/talleres o cursos.png" alt="Talleres o cursos" width="300" height="200">
+        </td>
+      </tr>
     </table>
+  </div>
 
-    <hr style="border: 1px solid #eee; margin: 10px 0;">
-
-    <table border="1" cellpadding="5" cellspacing="0" width="100%" style="font-size: 0.9em;">
-        <tr bgcolor="#f5f5f5">
-            <td><strong>Total</strong></td>
-            <td align="right"><strong>$0.00</strong></td>
-        </tr>
-        <tr>
-            <td colspan="2" align="center">
-                <button style="padding: 8px 10px; background-color: #4CAF50; color: white; border: none; width: 100%; font-weight: bold;">
-                    Pagar
-                </button>
-            </td>
-        </tr>
-    </table>
 </body>
 </html>
